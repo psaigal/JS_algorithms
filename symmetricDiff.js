@@ -53,7 +53,7 @@ sym([3, 3, 3, 2, 5], [2, 1, 5, 7], [3, 4, 6, 6], [1, 2, 3], [5, 3, 9, 8], [1])
 
 //Psuedocode
 // 1. Create an array which contains the different array arguments (an array of arrays)
-// 2. We want to start by comparing the differences/similarities between the first two arrays
+// 2. We want to start by comparing the differences/similarities between the first two arrays. We will need to get rid of duplicate numbers in each array
 // 3. For example say the two arrays are: var 1 = [1,2,3] and var 2 = [4,2,6]
 // 4. Lets create an empty object. The key will equal the number in the array and the value will equal the number of times that value appears. So we sort through these two arrays amd update the hash.
 // frequencyObject= {1:1, 2:2, 3:1, 4:1, 6:1}
