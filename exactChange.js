@@ -26,7 +26,7 @@ function checkCashRegister(price, cash, cid) {
       }
     }
   }
-  if (addSums(result) != originalChange ) {
+  if (addSums(result) != originalChange) {
     return "Insufficient Funds";
   }
 }
