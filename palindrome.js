@@ -1,5 +1,8 @@
+//Return true or false if a string is a palindrome. A palindrome is a string that is spelled the same way backwards and forwards.
+
 //Input: string
 //Output: boolean
+
 
 // Example: racecar(odd numer string)
 // 1. Take string racecar
