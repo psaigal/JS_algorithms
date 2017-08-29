@@ -49,7 +49,7 @@ sym([3, 3, 3, 2, 5], [2, 1, 5, 7], [3, 4, 6, 6], [1, 2, 3], [5, 3, 9, 8], [1])
 // Example
 // A = {1, 2, 3},  B = {2, 3, 4} => the symmetric difference result is: C = {1, 4}
 // Now compare C to the next argument, D = {2, 3}
-// *****RESULT = {1, 2, 3, 4}
+// ***** RESULT = {1, 2, 3, 4}
 
 //Psuedocode
 // 1. Create an array which contains the different array arguments (an array of arrays)
