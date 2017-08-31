@@ -23,6 +23,8 @@
 // 5. false
 // 6. false
 
+
+//SOLUTION 1
 function isNumberPrime(number) {
   var numbers = [2,3,4,5,6,7,8,9];
   if (number <= 0 || number === 1 || number === 2 || number === 3 || number === 5 || number === 7) {
@@ -44,6 +46,20 @@ function isNumberPrime(number) {
 }
 
 isNumberPrime(12);
+
+//SOLUTION 2
+function verifyPrime(num) {
+  if (num === 1 || num === 2) {
+    return true;
+  }
+  for (var j = 2; j <= num/2; j++) {
+    if ((num % j === 0)) {
+      return false;
+    }
+  }
+  return true;
+}
+
 
 
 
